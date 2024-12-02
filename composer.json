@@ -1,0 +1,22 @@
+{
+  "require": {
+    "php": "^8.0",
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.7",
+    "php-di/php-di": "^7.0",
+    "monolog/monolog": "^3.8",
+    "respect/validation": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.12",
+    "squizlabs/php_codesniffer": "^3.0"
+  },
+  "scripts": {
+    "phpcs": "phpcs --standard=phpcs.xml"
+  }
+}
