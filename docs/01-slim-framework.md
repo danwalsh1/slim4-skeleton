@@ -16,7 +16,7 @@ Slim is a popular framework with a large community and extensive documentation.
 However, it's important to remember that core Slim is minimal, meaning that its
 documentation covers the basic functionality of the frameworks features.
 
-https://www.slimframework.com/docs/v4/
+[Slim Framework v4 Documentation](https://www.slimframework.com/docs/v4/)
 
 However, there are many additional resources available to help you get started
 with Slim, including tutorials, blog posts, and community forums. There is also
