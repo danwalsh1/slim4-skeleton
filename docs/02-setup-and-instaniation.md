@@ -107,8 +107,8 @@ to how the logger is accessed in the `dependencies.php` file.
 ### app/repositories.php
 
 The `app/repositories.php` file contains the dependency injection definitions
-for the repository classes. In this example, we have a `UserRepository` that
-is added to the container.
+for the repository classes. In this example, we have a `UserDatabaseRepository`
+that is added to the container.
 
 One of the key benefits of using a dependency injection container is that you
 can define the dependencies once and then use them throughout the application.

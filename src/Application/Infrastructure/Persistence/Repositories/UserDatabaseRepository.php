@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Application\Infrastructure\Persistence;
+namespace App\Application\Infrastructure\Persistence\Repositories;
 
-use App\Application\Domain\Repositories\UserRepository;
+use App\Application\Domain\Interfaces\UserRepositoryInterface;
 use App\Application\Exceptions\RecordNotFoundException;
 use PDO;
 
-class UserDatabaseRepository implements UserRepository
+class UserDatabaseRepository implements UserRepositoryInterface
 {
     private const SQL_FIND_ALL_USERS = 'SELECT * FROM users';
     private const SQL_FIND_USER_BY_ID = 'SELECT * FROM users WHERE id = :id';

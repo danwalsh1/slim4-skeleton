@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Application\Domain\Repositories;
+namespace App\Application\Domain\Interfaces;
 
-interface UserRepository
+interface UserRepositoryInterface
 {
     /**
      * @return array<array<string, mixed>>

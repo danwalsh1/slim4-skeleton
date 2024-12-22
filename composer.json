@@ -5,7 +5,8 @@
     "slim/psr7": "^1.7",
     "php-di/php-di": "^7.0",
     "monolog/monolog": "^3.8",
-    "respect/validation": "^2.3"
+    "respect/validation": "^2.3",
+    "ext-pdo": "*"
   },
   "autoload": {
     "psr-4": {

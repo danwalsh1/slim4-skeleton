@@ -5,16 +5,16 @@ declare(strict_types=1);
 namespace App\Application\Domain\Services;
 
 use App\Application\Domain\Factories\UserFactory;
+use App\Application\Domain\Interfaces\UserRepositoryInterface;
 use App\Application\Domain\Models\User;
-use App\Application\Domain\Repositories\UserRepository;
 use App\Application\Exceptions\ValidationException;
 use App\Application\Validators\Model\UserValidator;
 
 class UserService
 {
-    private UserRepository $userRepository;
+    private UserRepositoryInterface $userRepository;
 
-    public function __construct(UserRepository $userRepository)
+    public function __construct(UserRepositoryInterface $userRepository)
     {
         $this->userRepository = $userRepository;
     }
